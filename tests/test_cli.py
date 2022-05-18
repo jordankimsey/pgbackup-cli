@@ -2,7 +2,7 @@ import pytest
 
 from pgbackup import cli
 
-url = "postgres://cloud_user:5432/db_one"
+url = "postgres://user:password:5432/db_one"
 
 @pytest.fixture
 def parser():
